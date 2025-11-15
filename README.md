@@ -42,6 +42,7 @@ dengan repo milikmu. Caranya:
 
 ## 🙌 Credits (Nonton Selengkapnya di chanel *Wpu*)
 - 🗿 **Karna saya juga noding dari sana**
+- 😅 **Saya Juga mengkombinasikan hasil codingan dengan chatgbt**
 ---
 
 Jangan lupa **Like ❤️** dan **Komentar 💬**
