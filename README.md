@@ -29,19 +29,34 @@ Template modern, responsif, dan ringan untuk kebutuhan website pribadi, portfoli
 Ganti bagian:
 
 ```html
-<!-- giscus
+<!-- giscus -->
 <script src="https://giscus.app/client.js"
         data-repo="[ENTER REPO HERE]"
         data-repo-id="[ENTER REPO ID HERE]"
         data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE] -->
+        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+<!--dst sesuai dengan gitcus yang sudah di beri--
 ```
 
 dengan repo milikmu. Caranya:
 1. Masuk ke halaman **https://giscus.app/**
 2. Ikuti langkah-langkah untuk setup repository
-3. Copy script yang diberikan
-4. Tempelkan ke bagian `<!-- giscus -->`
+3. Ubah repomu ke publik
+4. Masuk Ke *https://github.com/apps/giscus* Lalu configure
+5. dan pilih repomu yang ingin kamu beri comenanan
+6. Kembali ke gitcus dan scroll,Pilih kategory Announcements
+7. Copy script yang diberikan
+8. Tempelkan ke bagian `<!-- giscus -->`
 
 ---
 
