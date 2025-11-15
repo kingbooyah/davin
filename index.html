@@ -277,56 +277,43 @@
     </section>
     <!-- akhir hubungi -->
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <!-- Bagian Ubah Form Online -->
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  required
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  required
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea
-                  class="form-control"
-                  id="pesan"
-                  name="pesan"
-                  rows="3"
-                  required
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-          </div>
-        </div>
+  <!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>Comment Section</h2>
       </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+
+        <!-- Giscus -->
+        <div class="card shadow p-3">
+          <div id="comments"></div>
+
+          <script src="https://giscus.app/client.js"
+              data-repo="kingbooyah/davin"
+              data-repo-id="R_kgDOQWB7lA"
+              data-category="Announcements"
+              data-category-id="DIC_kwDOQWB7lM4Cxzx1"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="preferred_color_scheme"
+              data-lang="en"
+              crossorigin="anonymous"
+              async>
+          </script>
+        </div>
+        <!-- Akhir Giscus -->
+
+      </div>
+    </div>
+  </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -337,30 +324,6 @@
       </svg>
     </section>
     <!-- Akhir Contact -->
- <!-- Giscus -->
-<div class="container my-5">
-  <div class="card shadow p-3">
-    <div id="comments">
-      <script src="https://giscus.app/client.js"
-          data-repo="kingbooyah/davin"
-          data-repo-id="R_kgDOQWB7lA"
-          data-category="Announcements"
-          data-category-id="DIC_kwDOQWB7lM4Cxzx1"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="bottom"
-          data-theme="preferred_color_scheme"
-          data-lang="en"
-          crossorigin="anonymous"
-          async>
-      </script>
-    </div>
-  </div>
-</div>
-<!-- Akhir Giscus -->
-
     
     <!-- Footer -->
     <footer class="bg-warning text-white text-center pb-5">
@@ -380,6 +343,7 @@
     ></script>
   </body>
 </html>
+
 
 
 
