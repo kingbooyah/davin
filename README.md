@@ -29,7 +29,12 @@ Template modern, responsif, dan ringan untuk kebutuhan website pribadi, portfoli
 Ganti bagian:
 
 ```html
-<!-- giscus -->
+<!-- giscus
+<script src="https://giscus.app/client.js"
+        data-repo="[ENTER REPO HERE]"
+        data-repo-id="[ENTER REPO ID HERE]"
+        data-category="[ENTER CATEGORY NAME HERE]"
+        data-category-id="[ENTER CATEGORY ID HERE] -->
 ```
 
 dengan repo milikmu. Caranya:
