@@ -1,0 +1,26 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fff8e1;
+}
+
+.img-blur {
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+#Galery {
+  background-color: #fff8e1;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#hubungi {
+  background-color: #f3f4f5;
+}
+
