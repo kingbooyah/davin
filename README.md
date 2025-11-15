@@ -45,7 +45,7 @@ dengan repo milikmu. Caranya:
 ---
 
 Jangan lupa **Like ❤️** dan **Komentar 💬**
-di sosial media KingBooyahid:
+di sosial media Wpu & KingBooyahid:
 - ▶️ Wpu: **https://www.youtube.com/@sandhikagalihWPU**
 - ▶️ **YouTube:** KingBooyahid
 - 🎵 **TikTok:** KingBooyahid
