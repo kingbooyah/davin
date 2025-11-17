@@ -64,7 +64,10 @@
               <a class="nav-link" href="#hubungi">Hubungi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#kontak">kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#komentar">Komentar</a>
             </li>
           </ul>
         </div>
@@ -73,7 +76,19 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron my-5 position-relative">
+    <section class="jumbotron mt-5 pt-5 position-relative">
+      <!-- posisi Conter Hitwebcounter-->
+      <div class="container d-flex justify-content-center mb-4">
+        <div class="p2">
+          <a href="https://www.hitwebcounter.com/" target="_blank">
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=21457318&style=0030&nbdigits=5&type=page&initCount=0"
+              alt="Website Counter"
+            />
+          </a>
+          <!-- Akhir counter -->
+        </div>
+      </div>
       <div class="container">
         <div class="row align-items-center">
           <!-- Kiri: Judul dan Deskripsi -->
@@ -277,43 +292,95 @@
     </section>
     <!-- akhir hubungi -->
 
-  <!-- Contact -->
-<section id="contact">
-  <div class="container">
-    <div class="row text-center mb-3">
-      <div class="col">
-        <h2>Comment Section</h2>
-      </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-
-        <!-- Giscus -->
-        <div class="card shadow p-3">
-          <div id="comments"></div>
-
-          <script src="https://giscus.app/client.js"
-              data-repo="kingbooyah/davin"
-              data-repo-id="R_kgDOQWB7lA"
-              data-category="Announcements"
-              data-category-id="DIC_kwDOQWB7lM4Cxzx1"
-              data-mapping="pathname"
-              data-strict="0"
-              data-reactions-enabled="1"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="light"
-              data-lang="en"
-              crossorigin="anonymous"
-              async>
-          </script>
+    <!-- kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
         </div>
-        <!-- Akhir Giscus -->
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <!-- Bagian Ubah Form Online -->
+            <form action="https://formspree.io/f/mldagdpa" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
 
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  name="pesan"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-danger">Kirim</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </section>
+    <!-- Akhir Kontak -->
+
+    <!-- Contact +giscus-->
+    <section id="komentar">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Comment Section</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <!-- Giscus -->
+            <div class="card shadow p-3">
+              <div id="comments"></div>
+
+              <script
+                src="https://giscus.app/client.js"
+                data-repo="kingbooyah/davin"
+                data-repo-id="R_kgDOQWB7lA"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOQWB7lM4Cxzx1"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="light"
+                data-lang="en"
+                crossorigin="anonymous"
+                async
+              ></script>
+            </div>
+            <!-- Akhir Giscus -->
+          </div>
+        </div>
+      </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -324,7 +391,7 @@
       </svg>
     </section>
     <!-- Akhir Contact -->
-    
+
     <!-- Footer -->
     <footer class="bg-warning text-white text-center pb-5">
       Dibuat Dengan <i class="bi bi-emoji-smile-fill"></i> Oleh
@@ -343,8 +410,3 @@
     ></script>
   </body>
 </html>
-
-
-
-
-
