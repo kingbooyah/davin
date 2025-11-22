@@ -20,6 +20,7 @@ Ganti bagian:
 
 ## 📝 BAGIAN database letakan di awal 
 Ganti bagian:
+```html
 <!-- ============================ BAGIAN KODINGAN PHP DATABASE ========================= -->
 <?php
 include "koneksi.php";
@@ -36,6 +37,7 @@ if (isset($_POST['kirim'])) {
   exit;
 }
 ?>
+```
 ---
 
 Silakan edit kapan pun jika ingin menambah fitur baru!
