@@ -19,7 +19,7 @@ Ganti bagian:
 ```
 
 ## 📝 BAGIAN database letakan di awal 
-Ganti bagian paling awal sebelum <html>:
+Ganti bagian paling awal sebelum html>:
 ```html
 <!-- ============================ BAGIAN KODINGAN PHP DATABASE ========================= -->
 <?php
