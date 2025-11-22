@@ -38,6 +38,28 @@ if (isset($_POST['kirim'])) {
 }
 ?>
 ```
+## 📝 BAGIAN database letakan di awal 
+Ganti bagian:
+```html
+<!-- Bagiaan komentar pengunjung -->
+  <div id="coment">
+    <div class=" text-center p-3 justify-content-center mb-5 ">
+      <div class="card shadow p-3">
+        <div class="mt-50">
+          <h4>Komntar Pengunjung</h4>
+        </div>
+        <?php
+        $result = mysqli_query($conn, "SELECT * from konek ORDER BY id DESC");
+        while ($row = mysqli_fetch_assoc($result)):
+          ?>
+
+          <h6 class="mb-1 mt-5">Nama: <?= $row['name'] ?></h6>
+          <h6>Pesan: <?= $row['message'] ?></h6>
+        <?php endwhile; ?>
+      </div>
+    </div>
+  </div>
+```
 ---
 
 Silakan edit kapan pun jika ingin menambah fitur baru!
