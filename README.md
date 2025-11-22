@@ -19,7 +19,7 @@ Ganti bagian:
 ```
 
 ## 📝 BAGIAN database letakan di awal 
-Ganti bagian:
+Ganti bagian paling awal sebelum <html>:
 ```html
 <!-- ============================ BAGIAN KODINGAN PHP DATABASE ========================= -->
 <?php
@@ -38,7 +38,7 @@ if (isset($_POST['kirim'])) {
 }
 ?>
 ```
-## 📝 BAGIAN database letakan di awal 
+## 📝 BAGIAN koemntar pengunjung
 Ganti bagian:
 ```html
 <!-- Bagiaan komentar pengunjung -->
