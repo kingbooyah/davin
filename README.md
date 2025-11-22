@@ -18,8 +18,24 @@ Ganti bagian:
       </div>
 ```
 
-## 📝 BAGIAN KONEKSI.PHP FILENYA
+## 📝 BAGIAN database letakan di awal 
 Ganti bagian:
+<!-- ============================ BAGIAN KODINGAN PHP DATABASE ========================= -->
+<?php
+include "koneksi.php";
+if (isset($_POST['kirim'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+  $sql = mysqli_query(
+    $conn,
+    "INSERT INTO konek (name, email, message) Values('$name','$email','$message')"
+  );
+  header("Location: index.php");
+  exit;
+}
+?>
 ---
 
 Silakan edit kapan pun jika ingin menambah fitur baru!
