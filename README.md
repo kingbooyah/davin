@@ -60,6 +60,13 @@ Ganti bagian:
     </div>
   </div>
 ```
+## 📝 BAGIAN konek.php database
+Ganti bagian:
+```html
+<?php
+$conn = mysqli_connect("localhost", "root", "", "komentar") or die("ggl");
+?>
+```
 ---
 
 Silakan edit kapan pun jika ingin menambah fitur baru!
