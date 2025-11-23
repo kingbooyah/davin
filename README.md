@@ -66,6 +66,15 @@ Ganti bagian:
 <?php
 $conn = mysqli_connect("localhost", "root", "", "komentar") or die("ggl");
 ?>
+
+
+atau bisa juga pake
+
+<?php foreach (mysqli_query($conn, "SELECT * FROM konek ORDER BY id DESC") as $row): ?>
+  <h6>Nama: <?= $row['name'] ?></h6>
+  <h6>Pesan: <?= $row['message'] ?></h6>
+<?php endforeach; ?>
+
 ```
 ---
 
