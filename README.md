@@ -117,3 +117,9 @@ menambah fitur baru!
     exit;
   }
 ```
+```html
+        <div class="quote-icon mt-2">
+          <a href="?delete=<?= $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin hapus?')">
+            Delete
+          </a>
+```
