@@ -99,6 +99,7 @@ if (isset($_POST['kirim'])) {
 <?php
 $koneksi = mysqli_connect("localhost", "root", "", "nama_database");
 
+
 if (mysqli_connect_errno()) {
     echo "Gagal koneksi ke MySQL: " . mysqli_connect_error();
     exit;
@@ -107,4 +108,12 @@ if (mysqli_connect_errno()) {
 Silakan edit kapan pun jika ingin
 menambah fitur baru!
 ```
-
+```html
+  // Delete
+  if (isset($_GET['delete'])) {
+    $id = $_GET['delete'];
+    mysqli_query($conn, "DELETE FROM contact WHERE id=$id");
+    header("location: index.php");
+    exit;
+  }
+```
