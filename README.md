@@ -69,7 +69,7 @@ $conn = mysqli_connect("localhost", "root", "", "komentar") or die("ggl");
 
 
 atau bisa juga pake
-
+```html
 <?php foreach (mysqli_query($conn, "SELECT * FROM konek ORDER BY id DESC") as $row): ?>
   <h6>Nama: <?= $row['name'] ?></h6>
   <h6>Pesan: <?= $row['message'] ?></h6>
@@ -78,7 +78,7 @@ atau bisa juga pake
 ```
 ---
 
-
+```html
 <!-- Fungsi Tambah Komentar -->
 <?php
 include "koneksi.php";
@@ -94,4 +94,5 @@ if (isset($_POST['kirim'])) {
     echo "<script>alert('Komentar berhasil dikirim');window.location.href='index.php';</script>";
 }
 ?>
+```
 Silakan edit kapan pun jika ingin menambah fitur baru!
