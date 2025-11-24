@@ -78,4 +78,20 @@ atau bisa juga pake
 ```
 ---
 
+
+<!-- Fungsi Tambah Komentar -->
+<?php
+include "koneksi.php";
+if (isset($_POST['kirim'])) {
+    date_default_timezone_set("Asia/Jakarta");
+    $timestamp = time();
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    $komentar = $_POST['komentar'];
+    $tanggal = date('Y-m-d H:i:s', $timestamp);
+
+    $sql = mysqli_query($koneksi, "INSERT INTO komentar VALUES('','$nama','$email','$komentar','$tanggal')");
+    echo "<script>alert('Komentar berhasil dikirim');window.location.href='index.php';</script>";
+}
+?>
 Silakan edit kapan pun jika ingin menambah fitur baru!
